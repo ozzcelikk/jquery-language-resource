@@ -1,13 +1,5 @@
 ﻿// jQuery multiple resouce :  (2017/09/05 17:08:11)
 
-//Firstly define your browser language on your code
-
-//Sample
-//<html data-lang="en">
-//......
-//</html>
-
-
 var lang = $('html').attr('data-lang');
 
 var Resource = {
@@ -69,31 +61,3 @@ var Resource = {
     etc.
     */
 }
-
-/* ----> SAMPLE <---- 
-
-$.get('/provider/getdata',{id:1})
-.success(function(){
-consolo.log(Resource.Succes[lang]);
-})
-.fail(function(){
-consolo.log(Resource.Error[lang] +":" Resource.SometingWentWrong[lang])
-});
-
-
-if success
-Output => en : Success
-          tr : Başarılı
-          nl : Succes
-          ko : 성공
-
-
-if fail
-Output => en : Error : Someting went wrong
-          tr : Hata : Birşeyler ters gitti
-          nl : Fout : Someting ging fout
-          ko : 오류: 측정 오류가 잘못되었습니다
-
-           
- ----> END <----  */
-
