@@ -2,7 +2,7 @@
 
 Firstly define your browser language on your code
 
-1. Add selected language to data attribute on html tag like <html data-lang="en">
+1. Add selected language to data attribute on html tag like <html data-lang="en"
 
 2. Import resource file
   
